@@ -1,0 +1,8 @@
+cp;valid;maxModules;group;size;mean;classes
+0.025;true;7;22;7;0.03346203346203346;library.app.LibraryApp,library.model.Book,library.model.Item,library.service.Catalog,library.service.LoanService,library.service.LoanService.Loan,library.service.Notifier
+0.025;true;7;2;1;NA;library.model.Category
+0.025;true;7;3;1;NA;library.model.Dvd
+0.025;true;7;5;1;NA;library.model.Loanable
+0.025;true;7;20;2;0.02702702702702703;library.model.Member,library.service.ConsoleNotifier
+0.025;true;7;9;1;NA;library.service.LoanException
+0.025;true;7;18;2;0.05405405405405406;library.util.Statistics,library.util.TextUtils

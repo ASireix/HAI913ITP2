@@ -1,0 +1,29 @@
+28 : S=0.0 [library.app.LibraryApp, library.model.Book, library.model.Category, library.model.Dvd, library.model.Item, library.model.Loanable, library.model.Member, library.service.Catalog, library.service.ConsoleNotifier, library.service.LoanException, library.service.LoanService, library.service.LoanService.Loan, library.service.Notifier, library.util.Statistics, library.util.TextUtils]
+  26 : S=0.002457002457002457 [library.app.LibraryApp, library.model.Book, library.model.Category, library.model.Item, library.model.Loanable, library.model.Member, library.service.Catalog, library.service.ConsoleNotifier, library.service.LoanService, library.service.LoanService.Loan, library.service.Notifier, library.util.Statistics, library.util.TextUtils]
+    18 : S=0.05405405405405406 [library.util.Statistics, library.util.TextUtils]
+      13 : library.util.Statistics
+      14 : library.util.TextUtils
+    25 : S=0.002702702702702703 [library.app.LibraryApp, library.model.Book, library.model.Category, library.model.Item, library.model.Loanable, library.model.Member, library.service.Catalog, library.service.ConsoleNotifier, library.service.LoanService, library.service.LoanService.Loan, library.service.Notifier]
+      5 : library.model.Loanable
+      24 : S=0.003003003003003003 [library.app.LibraryApp, library.model.Book, library.model.Category, library.model.Item, library.model.Member, library.service.Catalog, library.service.ConsoleNotifier, library.service.LoanService, library.service.LoanService.Loan, library.service.Notifier]
+        2 : library.model.Category
+        23 : S=0.007722007722007722 [library.app.LibraryApp, library.model.Book, library.model.Item, library.model.Member, library.service.Catalog, library.service.ConsoleNotifier, library.service.LoanService, library.service.LoanService.Loan, library.service.Notifier]
+          20 : S=0.02702702702702703 [library.model.Member, library.service.ConsoleNotifier]
+            6 : library.model.Member
+            8 : library.service.ConsoleNotifier
+          22 : S=0.009009009009009009 [library.app.LibraryApp, library.model.Book, library.model.Item, library.service.Catalog, library.service.LoanService, library.service.LoanService.Loan, library.service.Notifier]
+            12 : library.service.Notifier
+            21 : S=0.010810810810810811 [library.app.LibraryApp, library.model.Book, library.model.Item, library.service.Catalog, library.service.LoanService, library.service.LoanService.Loan]
+              1 : library.model.Book
+              19 : S=0.04054054054054054 [library.app.LibraryApp, library.model.Item, library.service.Catalog, library.service.LoanService, library.service.LoanService.Loan]
+                11 : library.service.LoanService.Loan
+                17 : S=0.060810810810810814 [library.app.LibraryApp, library.model.Item, library.service.Catalog, library.service.LoanService]
+                  15 : S=0.10810810810810811 [library.model.Item, library.service.LoanService]
+                    4 : library.model.Item
+                    10 : library.service.LoanService
+                  16 : S=0.08108108108108109 [library.app.LibraryApp, library.service.Catalog]
+                    0 : library.app.LibraryApp
+                    7 : library.service.Catalog
+  27 : S=0.0 [library.model.Dvd, library.service.LoanException]
+    3 : library.model.Dvd
+    9 : library.service.LoanException
